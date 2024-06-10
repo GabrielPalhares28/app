@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Organizador de Tarefas</h1>
+        <form id="taskForm">
+            <input type="text" id="taskName" placeholder="Nome da Tarefa" required>
+            <input type="datetime-local" id="taskTime" required>
+            <button type="submit">Adicionar Tarefa</button>
+        </form>
+        <ul id="taskList"></ul>
+        <input type="file" id="backgroundInput" accept="image/*">
+        <button id="changeBackground">Trocar Papel de Parede</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
